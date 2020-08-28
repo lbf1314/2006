@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+/* main */
+.faxian_main_content {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    background: #f4f4f4;
+    font-family: "微软雅黑" !important;
+}
+/* 轮播图 */
+#faxian-banner-box {
+    width: 100%;
+    height: 364.583px;
+    overflow: hidden;
+    position: relative;
+}
+.banner_box_warpper {
+    width: 100%;
+    height: 364.583px;
+}
+.banner_box_warpper>a{
+    width: 100%;
+    position: relative;
+}
+.banner_box_warpper>a>img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#faxian-banner-box>a {
+    width: 37px;
+    height: 90px;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    background-image: url('../images/pc-article.png');
+    background-repeat: no-repeat;
+    top: 133.38541666666666px;
+}
+
+#faxian-banner-box>a:nth-of-type(1) {
+    background-position: 0 0;
+    left: 89px;
+}
+
+#faxian-banner-box>a:nth-of-type(2) {
+    right: 89px;
+    background-position: -37px 0;
+}
+/* 搜索 */
+.faxian-search-box {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 20px auto 0;
+}
+.faxian_search_line{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.faxian_search_line span{
+    width: 90px;
+    height: 40px;
+    background-color: #fff;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    color: #afafaf;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.search_input{
+    width: 360px;
+    height: 40px;
+    float: right;
+    overflow: hidden;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.search_input>input{
+    width: 267px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin: 0 10px;
+    padding: 0;
+    line-height: 40px;
+    background-color: #fff;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.search_input>div{
+    width: 73px;
+    height: 40px;
+    float: left;
+    background-color: #f9283e;
+    cursor: pointer;
+}
+.search_input>div>em{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 8px auto;
+    background: url('../images/pc-article.png') no-repeat -74px -24px;
+}
+/* 推荐 */
+.faxian-article-frame {
+    width: 1280px;
+    height: auto;
+    margin: 10px auto 20px;
+    position: relative;
+}
+.faxian_article_list{
+    width: 906px;
+    min-height: 603px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.faxian_art_item{
+    width: 292px;
+    height: 271px;
+    display: block;
+    float: left;
+    margin: 0 0 10px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.faxian_art_pic{
+    width: 272px;
+    height: 196px;
+    margin: 10px 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+.faxian_art_name{
+    width: 272px;
+    height: 30px;
+    margin: 0 10px;
+    line-height: 30px;
+    text-align: left;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+}
+.faxian_art_tips{
+    width: 272px;
+    height: 24px;
+    margin: 5px 10px;
+    text-align: right;
+}
+.faxian_art_tips span{
+    height: 24px;
+    width: 60px;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 24px;
+    font-size: 12px;
+    font-family: 'Microsoft YaHei';
+    color: #a8a8a8;
+}
+.faxian_art_tips span em{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url('../images/pc-article.png'); 
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.seeNum em{
+    background-position: -74px -72px;
+}
+.commNum em{
+    background-position: -98px -72px; 
+}
+.loveNum em{
+    background-position: -122px -72px;  
+}
+.faxian_article_float{
+    font-family: "微软雅黑";
+    position: fixed;
+    top: 100px;
+    right: 204.5px;
+    display: block;
+    width: 333px;
+    height: 526px;
+}
+.re_men_pai_hang_bang{
+    width: 293px;
+    height: 526px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.re_men_pai_hang_bangTitle{
+    width: 100%;
+    height: 22px;
+    margin: 14px 0 10px;
+}
+.re_men_pai_hang_bangTitle span{
+    width: auto;
+    height: 22px;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 9px;
+    display: block;
+    float: left;
+    border-left: 2px solid #f7273f;
+    font-size: 18px;
+}
+.re_men_pai_hang_bangTitle a{
+    width: auto;
+    height: 22px;
+    line-height: 22px;
+    text-align: right;
+    margin-right: 12px;
+    font-size: 15px;
+    color: #9a9a9a;
+    display: block;
+    float: right;
+}
+.re_men_list{
+    width: 100%;
+    height: 77px;
+    display: block;
+}
+.re_men_list>em{
+    width: 79px;
+    height: 57px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 10px 9px;
+    position: relative;
+}
+.re_men_list>em>img{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.re_men_name{
+    width: 184px;
+    height: 40px;
+    float: left;
+    margin: 6px 0 4px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    overflow: hidden;
+}
+.re_men_tips{
+    width: 184px;
+    height: 14px;
+    float: left;
+    margin: 0;
+}
+.re_men_tips span{
+    height: 14px;
+    width: auto;
+    display: block;
+    font-size: 14px;
+    color: #999;
+    font-family: 'Microsoft YaHei';
+}
+.re_men_tips span:nth-of-type(1){
+    float: left;
+}
+.re_men_tips span:nth-of-type(2){
+    float: right;
+}
+.to_woyaofabu{
+    width: 40px;
+    height: 134px;
+    display: block;
+    background-color: #169bd6;
+    border-radius: 3px;
+    float: right;
+}
+.to_woyaofabu em{
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: url('../images/pc-article.png') no-repeat -74px 0;
+    margin: 17px auto 10px;
+}
+.to_woyaofabu span{
+    font-family: "微软雅黑";
+    width: 20px;
+    height: 18px;
+    line-height: 18px;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #fff;
+    word-wrap: break-word;
+}
+.clear{
+    clear: both;
+}
+.faxian-page-footer {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto 30px;
+}
+.page-info{
+    width: 896px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #919191;
+}

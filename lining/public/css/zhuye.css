@@ -1,0 +1,1068 @@
+@charset "utf-8";
+
+/* 公共样式区 */
+.container-img {
+  width: 1920px;
+  margin-left: -465px;
+  position: relative;
+}
+.tab {
+  position: absolute;
+  left: 99px !important;
+}
+
+.tab_btn {
+  display: block;
+  color: #fff;
+  width: 141px;
+  height: 48px;
+  position: absolute;
+  text-align: center;
+  line-height: 48px;
+  font-size: 23px;
+  border-radius: 10px;
+}
+
+.tab_shop {
+  position: absolute;
+}
+
+.tab_shop_sku {
+  background-color: #fff;
+  width: 184px;
+  height: 276px;
+  display: inline-block;
+  position: relative;
+}
+
+.tab_shop_img {
+  position: static;
+  display: block;
+}
+
+.tab_shop_img img {
+  width: 184px;
+  height: 180px;
+  vertical-align: top;
+}
+
+.tab_shop_info {
+  display: block;
+  position: absolute;
+  width: 184px;
+  height: 70px;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+.tab_shop_name {
+  position: absolute;
+  top: 10px;
+  font-size: 14px;
+  width: 160px;
+  color: #605c5c;
+  height: 39px;
+  overflow: hidden;
+  text-align: left;
+  line-height: 19px;
+}
+
+.tab_shop_price {
+  position: absolute;
+  top: 50px;
+  color: #c91212;
+}
+
+.tab_shop_rmb {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.tab_shop_pe {
+  font-size: 24px;
+  left: 11px;
+  top: -3px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.tab_shop_buyitnow {
+  position: absolute;
+  width: 60px;
+  height: 16px;
+  bottom: -2px;
+  right: 20px;
+  display: block;
+}
+
+.tab_shop_buyitnow img {
+  width: 60px;
+  height: 16px;
+  vertical-align: top;
+}
+.lnsku a {
+  display: block;
+  position: absolute;
+}
+
+.lnsku p {
+  position: absolute;
+  color: #d84557;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+/* banner */
+.banner-wrap {
+  width: 990px;
+}
+
+.banner-wrap img {
+  width: 1920px;
+  margin-left: -465px;
+}
+
+/* xinpinfabu */
+.xinpinfabu-wrap {
+  position: relative;
+  height: 417px;
+}
+
+.xinpinfabu_banner {
+  position: absolute !important;
+  top: 107px !important;
+  left: 555px !important;
+  width: 809px;
+  height: 275px;
+  overflow: hidden;
+} /*
+.xinpinfabu_banner ul {
+  width: 6000px;
+  position: absolute;
+}
+
+.xinpinfabu_banner ul li {
+  float: left;
+  position: relative;
+}
+
+.xinpinfabu_banner ul li img {
+  width: 809px;
+} */
+
+/*----------------------轮播图公共样式层-----------------------*/
+.swiper-imagesize {
+  width: 100%;
+  height: 100%;
+}
+.swiper-pagination-bullet-active {
+  background-color: #a0100f;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+/* youhuijuan */
+.youhuijuan-wrap {
+  position: relative;
+  height: 585px;
+}
+
+.youhuijuan_img_a,
+.youhuijuan_img_b,
+.youhuijuan_img_c {
+  position: absolute;
+  top: 186px;
+  width: 266px;
+  height: 94px;
+}
+
+.youhuijuan_img_b,
+.youhuijuan_img_c {
+  cursor: pointer;
+}
+
+.youhuijuan_img_a {
+  left: 539px;
+}
+
+.youhuijuan_img_b {
+  left: 834px;
+}
+
+.youhuijuan_img_c {
+  left: 1126px;
+}
+
+/* yuyue */
+.yuyue-wrap {
+  position: relative;
+  height: 483px;
+}
+
+.yuyue_btn {
+  position: absolute;
+  font-size: 25px;
+  left: 900px;
+  bottom: 20px;
+  font-weight: bold;
+}
+
+.yuyue_img_a {
+  position: absolute;
+  width: 900px;
+  height: 467px;
+  left: 513px;
+  top: 17px;
+}
+
+/* zhibo */
+.zhibo-wrap {
+  height: 225px;
+}
+
+/* jingxuanzhuanqu */
+.jingxuanzhuanqu-wrap {
+  height: 1330px;
+}
+
+.jingxuanzhuanqu_img_a {
+  position: absolute;
+  top: 140px;
+  display: block;
+  left: 1301px;
+  width: 111px;
+  height: 57px;
+}
+
+.jingxuanzhuanqu_sku a {
+  display: block;
+  position: absolute;
+  width: 284px;
+  height: 358px;
+}
+
+.jingxuanzhuanqu_sku span {
+  position: absolute;
+  display: block;
+  color: #d84557;
+  line-height: 30px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.jingxuanzhuanqu_sku1 a {
+  top: 195px;
+  left: 506px;
+}
+
+.jingxuanzhuanqu_sku1 span {
+  left: 587px;
+  top: 500px;
+}
+
+.jingxuanzhuanqu_sku2 a {
+  top: 195px;
+  left: 818px;
+}
+
+.jingxuanzhuanqu_sku2 span {
+  left: 888px;
+  top: 500px;
+}
+
+.jingxuanzhuanqu_sku3 a {
+  top: 195px;
+  left: 1123px;
+}
+
+.jingxuanzhuanqu_sku3 span {
+  top: 500px;
+  left: 1190px;
+}
+
+.jingxuanzhuanqu_sku4 a {
+  top: 562px;
+  left: 506px;
+}
+
+.jingxuanzhuanqu_sku4 span {
+  left: 587px;
+  top: 867px;
+}
+
+.jingxuanzhuanqu_sku5 a {
+  top: 562px;
+  left: 818px;
+}
+
+.jingxuanzhuanqu_sku5 span {
+  left: 888px;
+  top: 867px;
+}
+
+.jingxuanzhuanqu_sku6 a {
+  top: 562px;
+  left: 1123px;
+}
+
+.jingxuanzhuanqu_sku6 span {
+  left: 1190px;
+  top: 867px;
+}
+
+.jingxuanzhuanqu_sku7 a {
+  top: 931px;
+  left: 506px;
+}
+
+.jingxuanzhuanqu_sku7 span {
+  left: 587px;
+  top: 1234px;
+}
+
+.jingxuanzhuanqu_sku8 a {
+  top: 931px;
+  left: 818px;
+}
+
+.jingxuanzhuanqu_sku8 span {
+  left: 888px;
+  top: 1234px;
+}
+
+.jingxuanzhuanqu_sku9 a {
+  top: 931px;
+  left: 1123px;
+}
+
+.jingxuanzhuanqu_sku9 span {
+  left: 1190px;
+  top: 1234px;
+}
+
+/* jingxuanzhuanji */
+.jingxuanzhuanji-wrap {
+  height: 870px;
+}
+
+.jingxuanzhuanji_img_a {
+  position: absolute;
+  top: 140px;
+  left: 1301px;
+  width: 111px;
+  height: 57px;
+}
+
+.jingxuanzhuanji_sku a {
+  display: block;
+  position: absolute;
+  width: 318px;
+  height: 175px;
+}
+
+.jingxuanzhuanji_sku a:nth-of-type(1) {
+  top: 138px;
+  left: 12px;
+}
+
+.jingxuanzhuanji_sku a:nth-of-type(2) {
+  top: 138px;
+  left: 335px;
+}
+
+.jingxuanzhuanji_sku a:nth-of-type(3) {
+  top: 138px;
+  left: 658px;
+}
+
+.jingxuanzhuanji_sku a:nth-of-type(4) {
+  top: 317px;
+  left: 12px;
+}
+
+.jingxuanzhuanji_sku a:nth-of-type(5) {
+  top: 317px;
+  left: 335px;
+}
+
+.jingxuanzhuanji_sku a:nth-of-type(6) {
+  top: 317px;
+  left: 658px;
+}
+
+.jingxuanzhuanji_sfq {
+  width: 963px;
+  height: 325px;
+  position: absolute;
+  top: 518px;
+  left: 16px;
+  overflow: hidden;
+}
+
+.jingxuanzhuanji_sfq a {
+  position: absolute;
+  display: block;
+  width: 143px;
+  height: 325px;
+}
+
+.jingxuanzhuanji_sfq a:nth-of-type(1) {
+  left: 0;
+}
+
+.jingxuanzhuanji_sfq a:nth-of-type(2) {
+  left: 247px;
+}
+
+.jingxuanzhuanji_sfq a:nth-of-type(3) {
+  left: 390px;
+}
+
+.jingxuanzhuanji_sfq a:nth-of-type(4) {
+  left: 533px;
+}
+
+.jingxuanzhuanji_sfq a:nth-of-type(5) {
+  left: 676px;
+}
+
+.jingxuanzhuanji_sfq a:nth-of-type(6) {
+  left: 819px;
+}
+
+.jingxuanzhuanji_sfq a img {
+  width: 247px;
+  height: 325px;
+}
+
+/* zhijiang */
+.zhijiang-wrap {
+  height: 1050px;
+}
+
+.zhijiang-more {
+  position: absolute;
+  top: 147px;
+  left: 704px;
+  width: 113px;
+  height: 38px;
+  z-index: 3;
+}
+
+.zhijiang_tab {
+  top: 6px;
+}
+
+.zhijiang_tab_btn {
+  top: 124px;
+  width: 141px;
+  height: 48px;
+}
+
+.zhijiang_tab_btn1 {
+  left: 179px;
+  background-color: #fba948;
+}
+
+.zhijiang_tab_btn2 {
+  left: 443px;
+  background-color: #000;
+}
+
+.zhijiang_tab_shop {
+  top: 173px;
+  left: -73px;
+  width: 1000px;
+  height: 828px;
+  padding-top: 15px;
+}
+.zhijiang_tab_shop_zhijiang {
+  position: absolute;
+  left: 3px;
+  top: 0;
+  width: 53px;
+  height: 39px;
+  background: url(https://cdns.lining.com/postsystem/docroot/images/promotion/201707/zhijiang.png)
+    no-repeat center top;
+}
+
+.zhijiang_word1,
+.zhijiang_word2 {
+  position: relative;
+  color: #fecf84;
+  width: 100%;
+  text-align: center;
+  height: 16px;
+  line-height: 16px;
+}
+
+.zhijiang_word1 {
+  font-size: 14px;
+}
+
+.zhijiang_word2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* liningrukou */
+.liningrukou-wrap {
+  height: 240px;
+}
+
+.liningrukou-wrap a {
+  position: absolute;
+  top: 32px;
+  left: -2px;
+  width: 997px;
+  height: 182px;
+}
+
+/* congxinchufa */
+.congxinchufa-wrap {
+  height: 1483px;
+}
+
+.congxinchufa_sku1 a {
+  top: 109px;
+  left: 895px;
+  width: 419px;
+  height: 698px;
+}
+
+.congxinchufa_sku1 p {
+  left: 1234px;
+  top: 769px;
+}
+
+.congxinchufa_sku2 a {
+  top: 832px;
+  left: 587px;
+  width: 280px;
+  height: 384px;
+}
+
+.congxinchufa_sku2 p {
+  left: 662px;
+  top: 1176px;
+}
+
+.congxinchufa_sku3 a {
+  top: 832px;
+  left: 1046px;
+  width: 280px;
+  height: 384px;
+}
+
+.congxinchufa_sku3 p {
+  left: 1108px;
+  top: 1176px;
+}
+
+.congxinchufa_sku4 a {
+  top: 1231px;
+  left: 587px;
+  width: 280px;
+  height: 234px;
+}
+
+.congxinchufa_sku4 p {
+  left: 662px;
+  top: 1427px;
+}
+
+.congxinchufa_sku5 a {
+  top: 1231px;
+  left: 1046px;
+  width: 280px;
+  height: 234px;
+}
+
+.congxinchufa_sku5 p {
+  left: 1108px;
+  top: 1427px;
+}
+
+/* yanyixinpianzhang */
+.yanyixinpianzhang-wrap {
+  height: 1623px;
+}
+
+.yanyixinpianzhang_sku1 a {
+  top: 63px;
+  left: 581px;
+  width: 419px;
+  height: 698px;
+}
+
+.yanyixinpianzhang_sku1 p {
+  left: 805px;
+  top: 726px;
+}
+
+.yanyixinpianzhang_sku2 a {
+  top: 774px;
+  left: 587px;
+  width: 280px;
+  height: 384px;
+}
+
+.yanyixinpianzhang_sku2 p {
+  left: 662px;
+  top: 1113px;
+}
+
+.yanyixinpianzhang_sku3 a {
+  top: 774px;
+  left: 1046px;
+  width: 280px;
+  height: 384px;
+}
+
+.yanyixinpianzhang_sku3 p {
+  left: 1108px;
+  top: 1113px;
+}
+
+.yanyixinpianzhang_sku4 a {
+  top: 1208px;
+  left: 587px;
+  width: 280px;
+  height: 397px;
+}
+
+.yanyixinpianzhang_sku4 p {
+  left: 662px;
+  top: 1564px;
+}
+
+.yanyixinpianzhang_sku5 a {
+  top: 1167px;
+  left: 1046px;
+  width: 280px;
+  height: 438px;
+}
+
+.yanyixinpianzhang_sku5 p {
+  left: 1108px;
+  top: 1564px;
+}
+
+/* jinqingkaixin */
+.jinqingkaixin-wrap {
+  height: 1415px;
+}
+
+.jinqingkaixin_sku1 a {
+  top: 25px;
+  left: 895px;
+  width: 419px;
+  height: 698px;
+}
+
+.jinqingkaixin_sku1 p {
+  left: 1234px;
+  top: 688px;
+}
+
+.jinqingkaixin_sku2 a {
+  top: 751px;
+  left: 587px;
+  width: 280px;
+  height: 426px;
+}
+
+.jinqingkaixin_sku2 p {
+  left: 662px;
+  top: 1140px;
+}
+
+.jinqingkaixin_sku3 a {
+  top: 751px;
+  left: 1046px;
+  width: 280px;
+  height: 426px;
+}
+
+.jinqingkaixin_sku3 p {
+  left: 1108px;
+  top: 1140px;
+}
+
+.jinqingkaixin_sku4 a {
+  top: 1186px;
+  left: 587px;
+  width: 280px;
+  height: 219px;
+}
+
+.jinqingkaixin_sku4 p {
+  left: 662px;
+  top: 1365px;
+}
+
+.jinqingkaixin_sku5 a {
+  top: 1186px;
+  left: 1046px;
+  width: 280px;
+  height: 219px;
+}
+
+.jinqingkaixin_sku5 p {
+  left: 1108px;
+  top: 1365px;
+}
+
+/* gengduojingcai */
+.gengduojingcai-wrap {
+  height: 880px;
+}
+
+.gengduojingcai_sku1 a {
+  top: 493px;
+  left: 117px;
+  width: 282px;
+  height: 367px;
+}
+
+.gengduojingcai_sku1 p {
+  left: 180px;
+  top: 811px;
+}
+
+.gengduojingcai_sku2 a {
+  top: 493px;
+  left: 581px;
+  width: 282px;
+  height: 367px;
+}
+
+.gengduojingcai_sku2 p {
+  left: 667px;
+  top: 811px;
+}
+
+/* zhuapin1 */
+.zhuapin-wrap1 {
+  height: 916px;
+}
+.zhuapin1_more {
+  position: absolute;
+  top: 25px;
+  left: 846px;
+  width: 107px;
+  height: 61px;
+  z-index: 3;
+}
+.zhuapin1_tab {
+  top: -68px;
+}
+.zhuapin1_tab_btn {
+  top: 85px;
+}
+.zhuapin1_tab_btn1 {
+  left: 150px;
+  background-color: #fba948;
+}
+.zhuapin1_tab_btn2 {
+  left: 473px;
+  background-color: #000;
+}
+.zhuapin1_tab_shop {
+  top: 143px;
+  left: -81px;
+  width: 996px;
+  height: 868px;
+  padding-top: 15px;
+}
+/* lanqiu */
+.lanqiu-wrap {
+  height: 771px;
+}
+
+.lanqiu_sku1 a {
+  top: 419px;
+  left: 119px;
+  width: 281px;
+  height: 333px;
+}
+
+.lanqiu_sku1 p {
+  left: 190px;
+  top: 705px;
+}
+
+.lanqiu_sku2 a {
+  top: 419px;
+  left: 587px;
+  width: 281px;
+  height: 333px;
+}
+
+.lanqiu_sku2 p {
+  left: 663px;
+  top: 705px;
+}
+
+/* paobu */
+.paobu-wrap {
+  height: 773px;
+}
+
+.paobu_sku1 a {
+  top: 419px;
+  left: 119px;
+  width: 281px;
+  height: 333px;
+}
+
+.paobu_sku1 p {
+  left: 190px;
+  top: 705px;
+}
+
+.paobu_sku2 a {
+  top: 419px;
+  left: 587px;
+  width: 281px;
+  height: 333px;
+}
+
+.paobu_sku2 p {
+  left: 663px;
+  top: 705px;
+}
+
+/* zhuapin2 */
+.zhuapin-wrap2 {
+  height: 930px;
+}
+.zhuapin2_more {
+  position: absolute;
+  top: 35px;
+  left: 860px;
+  width: 107px;
+  height: 61px;
+}
+.zhuapin2_tab {
+  top: -71px;
+}
+.zhuapin2_tab_btn {
+  top: 85px;
+}
+.zhuapin2_tab_btn1 {
+  left: 100px;
+  background-color: #fba948;
+}
+.zhuapin2_tab_btn2 {
+  left: 333px;
+  background-color: #000;
+}
+.zhuapin2_tab_btn3 {
+  left: 555px;
+  background-color: #000;
+}
+.zhuapin2_tab_shop {
+  top: 143px;
+  left: -81px;
+  width: 996px;
+  height: 868px;
+  padding-top: 15px;
+}
+
+/* paolianbuting */
+.paolianbuting-wrap {
+  height: 781px;
+}
+
+.paolianbuting_sku1 a {
+  top: 391px;
+  left: 119px;
+  width: 281px;
+  height: 362px;
+}
+
+.paolianbuting_sku1 p {
+  left: 190px;
+  top: 705px;
+}
+
+.paolianbuting_sku2 a {
+  top: 391px;
+  left: 587px;
+  width: 281px;
+  height: 362px;
+}
+
+.paolianbuting_sku2 p {
+  left: 663px;
+  top: 705px;
+}
+
+/* dushiyundong */
+.dushiyundong-wrap {
+  height: 781px;
+}
+
+.dushiyundong_sku1 a {
+  top: 391px;
+  left: 119px;
+  width: 281px;
+  height: 362px;
+}
+
+.dushiyundong_sku1 p {
+  left: 190px;
+  top: 711px;
+}
+
+.dushiyundong_sku2 a {
+  top: 380px;
+  left: 587px;
+  width: 281px;
+  height: 362px;
+}
+
+.dushiyundong_sku2 p {
+  left: 663px;
+  top: 711px;
+}
+
+/* zhuapin3 */
+.zhuapin-wrap3 {
+  height: 873px;
+}
+.zhuapin3_more {
+  position: absolute;
+  top: 2px;
+  left: 860px;
+  width: 107px;
+  height: 33px;
+  z-index: 1;
+}
+.zhuapin3_tab {
+  top: -118px;
+}
+.zhuapin3_tab_shop {
+  top: 143px;
+  left: -81px;
+  width: 996px;
+  height: 868px;
+  padding-top: 15px;
+}
+
+/* tongzhuang */
+.tongzhuang-wrap {
+  height: 780px;
+}
+.tongzhuang_sku1 a {
+  top: 391px;
+  left: 119px;
+  width: 281px;
+  height: 362px;
+}
+
+.tongzhuang_sku1 p {
+  left: 190px;
+  top: 711px;
+}
+
+.tongzhuang_sku2 a {
+  top: 380px;
+  left: 587px;
+  width: 281px;
+  height: 362px;
+}
+
+.tongzhuang_sku2 p {
+  left: 663px;
+  top: 711px;
+}
+
+/* zhuapin4 */
+.zhuapin-wrap4 {
+  height: 948px;
+}
+.zhuapin4_more {
+  position: absolute;
+  top: 27px;
+  left: 847px;
+  width: 105px;
+  height: 50px;
+  z-index: 3;
+}
+.zhuapin4_tab {
+  top: -70px;
+}
+.zhuapin4_tab_btn {
+  top: 85px;
+}
+.zhuapin4_tab_btn1 {
+  left: 150px;
+  background-color: #fba948;
+}
+.zhuapin4_tab_btn2 {
+  left: 480px;
+  background-color: #000;
+}
+.zhuapin4_tab_shop {
+  top: 143px;
+  left: -81px;
+  width: 996px;
+  height: 868px;
+  padding-top: 15px;
+}
+
+/* changguan */
+.changguan-wrap4 {
+  height: 272px;
+}
+
+.changguan_img {
+  position: absolute;
+  top: 19px;
+  width: 170px;
+  height: 245px;
+}
+
+.changguan_img1 {
+  left: 12px;
+}
+
+.changguan_img2 {
+  left: 213px;
+}
+
+.changguan_img3 {
+  left: 411px;
+}
+
+.changguan_img4 {
+  left: 603px;
+}
+
+.changguan_img5 {
+  left: 799px;
+}

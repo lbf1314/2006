@@ -1,0 +1,2265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>李宁官方网站</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/zhuye.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div id="header-top">
+        <div id="header-top-left">
+          <div id="headerTop_logo"></div>
+          <div id="headerTop_welcome">
+            <a href="denglu.html">登录</a>
+            <div id="headerTop_inter"></div>
+            <a href="zhuce.html">注册</a>
+          </div>
+          <div id="headerTop_shop">
+            <div id="headerTop_inter"></div>
+            <a href="javascript:;" id="headerTop_shop">
+              <div class="headerTop_shop_img"></div>
+              (<span>1</span>)
+            </a>
+
+            <!-- 购物车数据信息 -->
+            <!-- ----------------------------------------------------------------- -->
+            <div
+              class="headerShop_info"
+              style="
+                padding: 10px 0px;
+                display: none;
+                justify-content: center;
+                align-items: center;
+                width: 307px;
+                position: absolute;
+                top: 30px;
+                left: -105px;
+                background-color: #fff;
+                z-index: 9999;
+                border-left: 1px solid #b7b7b7;
+                border-right: 1px solid #b7b7b7;
+                border-bottom: 1px solid #b7b7b7;
+              "
+            >
+              您的购物车没有商品！
+            </div>
+          </div>
+        </div>
+        <div id="header-top-c"></div>
+        <div id="header-top-right">
+          <a href="javascript:;">消息</a>
+          <div id="headerTop_inter"></div>
+          <a href="javascript:;">我的李宁</a>
+        </div>
+      </div>
+      <!-- header-nav -->
+      <div id="header-nav">
+        <div id="header-nav-left">
+          <a href="javascript:;">
+            <div id="headerNav_logo"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">所有分类</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">男子</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">女子</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">男童</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">女童</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">系列</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <div id="headerNav_name_weideimg"></div>
+            <span id="headerNav_name">韦德</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">新品</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">中国李宁</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">更多品牌</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+        </div>
+
+        <!-- 购物车数据信息 -->
+        <!-- ----------------------------------------------------------------- -->
+        <div
+          id="header_tab_nav"
+          style="
+            position: absolute;
+            top: 50px;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            background-color: whitesmoke;
+            padding: 22px 0 15px;
+            width: 100%;
+            z-index: 1;
+            box-shadow: inset 0px 2px 3px 0px #000;
+          "
+        >
+          <div
+            style="height: 270px; width: 220px; border-left: 1px solid gray;"
+          >
+            测试一
+          </div>
+          <div
+            style="height: 270px; width: 220px; border-left: 1px solid gray;"
+          >
+            测试二
+          </div>
+          <div
+            style="height: 270px; width: 220px; border-left: 1px solid gray;"
+          >
+            测试四
+          </div>
+          <div
+            style="
+              height: 270px;
+              width: 220px;
+              border-left: 1px solid gray;
+              border-right: 1px solid gray;
+            "
+          >
+            测试五
+          </div>
+        </div>
+        <div id="header-nav-right">
+          <a href="javascript:;" id="headerNavRight_left">
+            <em></em>
+          </a>
+          <div id="headerNavRight_search">
+            <input
+              type="text"
+              value=""
+              placeholder="时装周"
+              maxlength="33"
+              autocomplete="off"
+            />
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- banner -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="banner-wrap">
+          <img src="./images/pc_01.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- xinpinfabu -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="xinpinfabu-wrap">
+          <div class="container-img">
+            <img src="./images/pc_02.jpg" alt="" />
+            <div class="xinpinfabu_banner swiper-container">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <img src="./images/sj.png" class="swiper-imagesize" alt="" />
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/qxc.png" class="swiper-imagesize" alt="" />
+                </li>
+                <li class="swiper-slide">
+                  <img
+                    src="./images/alien.png"
+                    class="swiper-imagesize"
+                    alt=""
+                  />
+                </li>
+                <li class="swiper-slide">
+                  <img
+                    src="./images/pc_sytk.jpg"
+                    class="swiper-imagesize"
+                    alt=""
+                  />
+                </li>
+                <li class="swiper-slide">
+                  <img src="./images/sj.png" class="swiper-imagesize" alt="" />
+                </li>
+              </ul>
+
+              <!-- Add Pagination -->
+              <div class="swiper-pagination swiper-p1"></div>
+            </div>
+            <!-- Add Arrows -->
+            <div
+              class="swiper-button-next"
+              style="
+                height: 53px;
+                position: absolute;
+                right: 495px;
+                top: 238px;
+                background: rgb(242, 242, 242) !important;
+              "
+            ></div>
+            <div
+              class="swiper-button-prev"
+              style="
+                height: 53px;
+                position: absolute;
+                left: 497px;
+                top: 238px;
+                background: rgb(242, 242, 242) !important;
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- youhuijuan -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="youhuijuan-wrap">
+          <div class="container-img">
+            <img src="./images/pc_yhq.gif" alt="" />
+            <a class="youhuijuan_img_a" href="javascript:;"></a>
+            <div class="youhuijuan_img_b"></div>
+            <div class="youhuijuan_img_c"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- yuyue -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="yuyue-wrap">
+          <div class="container-img">
+            <img src="./images/pc_04.jpg" alt="" />
+            <div class="yuyue_btn">点 击 预 约</div>
+            <a href="javascript:;" class="yuyue_img_a"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhibo -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhibo-wrap">
+          <div class="container-img">
+            <img src="./images/live_pc.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jingxuanzhuanqu -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="jingxuanzhuanqu-wrap">
+          <div class="container-img">
+            <img src="./images/pc1_06.jpg" alt="" />
+            <a href="javascript:;" class="jingxuanzhuanqu_img_a"></a>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku1">
+              <a href="javascript:;"></a>
+              <span>￥239</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku2">
+              <a href="javascript:;"></a>
+              <span>￥239</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku3">
+              <a href="javascript:;"></a>
+              <span>￥259</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku4">
+              <a href="javascript:;"></a>
+              <span>￥79</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku5">
+              <a href="javascript:;"></a>
+              <span>￥99</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku6">
+              <a href="javascript:;"></a>
+              <span>￥99</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku7">
+              <a href="javascript:;"></a>
+              <span>￥199</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku8">
+              <a href="javascript:;"></a>
+              <span>￥239</span>
+            </div>
+            <div class="jingxuanzhuanqu_sku jingxuanzhuanqu_sku9">
+              <a href="javascript:;"></a>
+              <span>￥259</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jingxuanzhuanji -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="jingxuanzhuanji-wrap">
+          <div class="container-img">
+            <img src="./images/pc_07.jpg" alt="" />
+          </div>
+          <div class="jingxuanzhuanji_sku">
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+          </div>
+          <div class="jingxuanzhuanji_sfq">
+            <a href="javascript:;"><img src="./images/jxzj1.png" alt="" /></a>
+            <a href="javascript:;"><img src="./images/jxzj2.png" alt="" /></a>
+            <a href="javascript:;"><img src="./images/jxzj3.png" alt="" /></a>
+            <a href="javascript:;"><img src="./images/jxzj4.png" alt="" /></a>
+            <a href="javascript:;"><img src="./images/jxzj5.png" alt="" /></a>
+            <a href="javascript:;"><img src="./images/jxzj6.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhijiang -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhijiang-wrap">
+          <div class="container-img">
+            <img src="./images/pc_08.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="zhijiang-more"></a>
+          <div class="tab zhijiang_tab">
+            <div class="tab_btn zhijiang_tab_btn zhijiang_tab_btn1">男子</div>
+            <div class="tab_btn zhijiang_tab_btn zhijiang_tab_btn2">女子</div>
+            <div class="tab_shop zhijiang_tab_shop"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- liningrukou -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="liningrukou-wrap">
+          <div class="container-img">
+            <img src="./images/pc_09.jpg" alt="" />
+          </div>
+          <a href=""></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- congxinchufa -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="congxinchufa-wrap">
+          <div class="container-img">
+            <img src="./images/pc_10.jpg" alt="" />
+            <div class="lnsku congxinchufa_sku1">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku congxinchufa_sku2">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku congxinchufa_sku3">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku congxinchufa_sku4">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku congxinchufa_sku5">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- yanyixinpianzhang -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="yanyixinpianzhang-wrap">
+          <div class="container-img">
+            <img src="./images/pc_11.jpg" alt="" />
+            <div class="lnsku yanyixinpianzhang_sku1">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku yanyixinpianzhang_sku2">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku yanyixinpianzhang_sku3">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku yanyixinpianzhang_sku4">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku yanyixinpianzhang_sku5">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jinqingkaixin -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="jinqingkaixin-wrap">
+          <div class="container-img">
+            <img src="./images/pc_12.jpg" alt="" />
+            <div class="lnsku jinqingkaixin_sku1">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku jinqingkaixin_sku2">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku jinqingkaixin_sku3">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku jinqingkaixin_sku4">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+            <div class="lnsku jinqingkaixin_sku5">
+              <a href=""></a>
+              <p>￥369</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gengduojingcai -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="gengduojingcai-wrap">
+          <div class="container-img">
+            <img src="./images/pc_13.jpg" alt="" />
+          </div>
+          <div class="lnsku gengduojingcai_sku1">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+          <div class="lnsku gengduojingcai_sku2">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhuapin1 -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhuapin-wrap zhuapin-wrap1">
+          <div class="container-img">
+            <img src="./images/pc_14.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="zhuapin1_more"></a>
+          <div class="tab zhuapin1_tab">
+            <div class="tab_btn zhuapin1_tab_btn zhuapin1_tab_btn1">男子</div>
+            <div class="tab_btn zhuapin1_tab_btn zhuapin1_tab_btn2">女子</div>
+            <div class="tab_shop zhuapin1_tab_shop">
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin1_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- lanqiu -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="lanqiu-wrap">
+          <div class="container-img">
+            <img src="./images/pc_15.jpg" alt="" />
+          </div>
+          <div class="lnsku lanqiu_sku1">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+          <div class="lnsku lanqiu_sku2">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhuapin2 -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhuapin-wrap zhuapin-wrap2">
+          <div class="container-img">
+            <img src="./images/pc_16.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="zhuapin2_more"></a>
+          <div class="tab zhuapin2_tab">
+            <div class="tab_btn zhuapin2_tab_btn zhuapin2_tab_btn1">
+              专业篮球
+            </div>
+            <div class="tab_btn zhuapin2_tab_btn zhuapin2_tab_btn2">
+              BADFIVE
+            </div>
+            <div class="tab_btn zhuapin2_tab_btn zhuapin2_tab_btn3">WADE</div>
+            <div class="tab_shop zhuapin2_tab_shop">
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_509165_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- paobu -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="paobu-wrap">
+          <div class="container-img">
+            <img src="./images/pc_17.jpg" alt="" />
+          </div>
+          <div class="lnsku paobu_sku1">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+          <div class="lnsku paobu_sku2">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhuapin2 -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhuapin-wrap zhuapin-wrap2">
+          <div class="container-img">
+            <img src="./images/pc_16.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="zhuapin2_more"></a>
+          <div class="tab zhuapin2_tab">
+            <div class="tab_btn zhuapin1_tab_btn zhuapin1_tab_btn1">男子</div>
+            <div class="tab_btn zhuapin1_tab_btn zhuapin1_tab_btn2">女子</div>
+            <div class="tab_shop zhuapin2_tab_shop">
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- paolianbuting -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="paolianbuting-wrap">
+          <div class="container-img">
+            <img src="./images/pc1_19.jpg" alt="" />
+          </div>
+          <div class="lnsku paolianbuting_sku1">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+          <div class="lnsku paolianbuting_sku2">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhuapin -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhuapin-wrap zhuapin-wrap2">
+          <div class="container-img">
+            <img src="./images/pc_16.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="zhuapin2_more"></a>
+          <div class="tab zhuapin2_tab">
+            <div class="tab_btn zhuapin1_tab_btn zhuapin1_tab_btn1">男子</div>
+            <div class="tab_btn zhuapin1_tab_btn zhuapin1_tab_btn2">女子</div>
+            <div class="tab_shop zhuapin2_tab_shop">
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin2_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- dushiyundong -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="dushiyundong-wrap">
+          <div class="container-img">
+            <img src="./images/FashionYoung_danskin.jpg" alt="" />
+          </div>
+          <div class="lnsku dushiyundong_sku1">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+          <div class="lnsku dushiyundong_sku2">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhuapin3 -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhuapin-wrap zhuapin-wrap3">
+          <div class="container-img">
+            <img src="./images/pc_21.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="zhuapin3_more"></a>
+          <div class="tab zhuapin3_tab">
+            <div class="tab_shop zhuapin3_tab_shop">
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin3_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- tongzhuang -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="tongzhuang-wrap">
+          <div class="container-img">
+            <img src="./images/pc_22.jpg" alt="" />
+          </div>
+          <div class="lnsku tongzhuang_sku1">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+          <div class="lnsku tongzhuang_sku2">
+            <a href=""></a>
+            <p>￥369</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- zhuapin4 -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="zhuapin-wrap zhuapin-wrap4">
+          <div class="container-img">
+            <img src="./images/pc_23.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="zhuapin4_more"></a>
+          <div class="tab zhuapin4_tab">
+            <div class="tab_btn zhuapin4_tab_btn zhuapin4_tab_btn1">男子</div>
+            <div class="tab_btn zhuapin4_tab_btn zhuapin4_tab_btn2">女子</div>
+            <div class="tab_shop zhuapin4_tab_shop">
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+              <div class="tab_shop_sku zhuapin4_tab_shop_sku">
+                <a href="javascript:;" class="tab_shop_img"
+                  ><img src="./images/display_523034_1.jpg" alt=""
+                /></a>
+                <div class="tab_shop_info">
+                  <div class="tab_shop_name">男子经典休闲鞋</div>
+                  <div class="tab_shop_price">
+                    <div class="tab_shop_rmb">¥</div>
+                    <div class="tab_shop_pe">239</div>
+                  </div>
+                  <a href="javascript:;" class="tab_shop_buyitnow"
+                    ><img src="./images/buyitnow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- changguan -->
+    <div class="container">
+      <div class="container-wrap">
+        <div class="changguan-wrap">
+          <div class="container-img">
+            <img src="./images/pc_24.jpg" alt="" />
+          </div>
+          <a href="javascript:;" class="changguan_img changguan_img1"></a>
+          <a href="javascript:;" class="changguan_img changguan_img2"></a>
+          <a href="javascript:;" class="changguan_img changguan_img3"></a>
+          <a href="javascript:;" class="changguan_img changguan_img4"></a>
+          <a href="javascript:;" class="changguan_img changguan_img5"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- zuocebianlan -->
+    <div class="navsiderBar" style="display: none;">
+      <div id="navsiderBar_nav">
+        <img src="./images/pc_dh.jpg" alt="" />
+      </div>
+      <div id="navsiderBar_content">
+        <div class="navsiderBar_content1"></div>
+        <div class="navsiderBar_content2"></div>
+        <div class="navsiderBar_content3"></div>
+        <div class="navsiderBar_content4"></div>
+        <div class="navsiderBar_content5"></div>
+      </div>
+    </div>
+
+    <!-- youcebianlan -->
+    <div id="sideBar">
+      <div class="siderBar-wrap">
+        <div class="siderBar_logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <div id="siderBar_show" class="bar">
+          <div>
+            <img src="./images/show_bar_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_lining" class="bar">
+          <div>
+            <img src="./images/my_lining_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_car" class="bar">
+          <div>
+            <img src="./images/cart_icon_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_rmb" class="bar">
+          <div>
+            <img src="./images/account_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_collect" class="bar">
+          <div>
+            <img src="./images/collect_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_view" class="bar">
+          <div>
+            <img src="./images/view_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_service" class="bar">
+          <div>
+            <img src="./images/service_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_scan" class="bar">
+          <div>
+            <img src="./images/scan_ground_1.png" alt="" />
+          </div>
+        </div>
+        <div
+          id="siderBar_scan"
+          class="bar go_top1"
+          style="flex-direction: column; display: none;"
+        >
+          <div>
+            <img src="./images/top_1.png" alt="" />
+          </div>
+          <span style="font-size: 16px; color: white; text-align: center;"
+            >回到顶部</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div id="footer-top" class="clear_fix">
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <a href="javascript:;" id="footerTopContent_title">获取帮助</a>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">联系我们</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">防伪查询</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">输入查询码</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">售后服务</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">使用说明</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">团购服务</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">VIP客户</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">校园代理</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">招募中</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 45%; margin: 0 auto 13px;" />
+      <div id="footer-center">
+        <div id="footer-center_content01">
+          <span>
+            温馨提示：近日有不法分子假冒+4006100011冒充李宁官方客服人员进行电话诈骗，请您提高警惕，注意保护个人账户信息，切勿泄漏他人。如遇类似问题，
+            请勿回拨来电号码，直接拨打李宁客服电话400-610-0011询问。
+          </span>
+        </div>
+        <div id="footer-center_content02">
+          <a href="javascript:;"> 沪ICP备14035278号-2</a>
+        </div>
+        <div id="footer-center_content03">
+          上海李宁体育用品电子商务有限公司 ©1990-2020
+        </div>
+        <ul id="footer-center_content04" class="clear_fix">
+          <li><a href="">关于我们</a></li>
+          <li><a href="">法律声明</a></li>
+          <li><a href="">投资者关系 Investor Relations</a></li>
+          <li><a href="">特许经营</a></li>
+          <li><a href="">合作伙伴</a></li>
+          <li><a href="">客服热线</a></li>
+        </ul>
+      </div>
+      <div id="footer-bottom">
+        <a href="javascript:;">
+          <img src="./images/ba.png" alt="" />
+          <div>京公网安备</div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
+<script src="./js/index.js"></script>
+<script src="./js/common.js"></script>

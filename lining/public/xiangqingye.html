@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>李宁官方网站</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/xiangqingye.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div id="header-top">
+        <div id="header-top-left">
+          <div id="headerTop_logo"></div>
+          <div id="headerTop_welcome">
+            <a href="javascript:;">登录</a>
+            <div id="headerTop_inter"></div>
+            <a href="javascript:;">注册</a>
+          </div>
+          <div id="headerTop_shop">
+            <div id="headerTop_inter"></div>
+            <a href="javascript:;" id="headerTop_shop">
+              <div class="headerTop_shop_img"></div>
+              (<span>1</span>)
+            </a>
+          </div>
+        </div>
+        <div id="header-top-c"></div>
+        <div id="header-top-right">
+          <a href="javascript:;">消息</a>
+          <div id="headerTop_inter"></div>
+          <a href="javascript:;">我的李宁</a>
+        </div>
+      </div>
+      <!-- header-nav -->
+      <div id="header-nav">
+        <div id="header-nav-left">
+          <a href="javascript:;">
+            <div id="headerNav_logo"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">所有分类</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">男子</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">女子</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">男童</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">女童</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">系列</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <div id="headerNav_name_weideimg"></div>
+            <span id="headerNav_name">韦德</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">新品</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">中国李宁</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+          <div id="headerNav_inter"></div>
+          <a href="javascript:;">
+            <span id="headerNav_name">更多品牌</span>
+            <div id="headerNav_name_img"></div>
+          </a>
+        </div>
+        <div id="header-nav-right">
+          <a href="javascript:;" id="headerNavRight_left">
+            <em></em>
+          </a>
+          <div id="headerNavRight_search">
+            <input
+              type="text"
+              value=""
+              placeholder="时装周"
+              maxlength="33"
+              autocomplete="off"
+            />
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- xiangqingye -->
+    <div id="xiangqingye">
+      <div class="xiangqingye_wrapper">
+        <div id="xiangqingye_info" class="clear_fix">
+          <div class="xiangqingye_info_imgbox">
+            <div class="tecLeftBar">
+              <ul>
+                <li>
+                  <img
+                    src="./images/f05c33c2c77484d02d7a36ac1e02331d.gif"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+            <div class="imgshowBar"></div>
+            <div class="imgbox_showImgBox">
+              <ul></ul>
+            </div>
+          </div>
+          <div class="xiangqingye_info_dotted"></div>
+          <div class="xiangqingye_info_jieshao">
+            <div id="xiangqingye_goodsinfo"></div>
+            <div id="xiangqingye_choiceaarea">
+              <span class="xiangqingye_choiceaarea_title">选择颜色:</span>
+              <ul id="xiangqingye_choiceaarea_shoestyle"></ul>
+              <div id="xiangqingye_choiceaarea_size" class="clear_fix">
+                <span id="choiceSize" class="xiangqingye_choiceaarea_title"
+                  >选择尺码:</span
+                >
+                <div></div>
+                <span class="xiangqingye_choiceaarea_title" id="function_buy">
+                  <label for="">我 要 买:</label>
+                  <input
+                    type="button"
+                    value="-"
+                    onclick="goodsDetail.reduce()"
+                  />
+                  <input type="text" value="1" id="goodsnum" />
+                  <input type="button" value="+" onclick="goodsDetail.add()" />
+                  <a href="javascript:;" id="checksize">查看尺寸对照表</a>
+                </span>
+              </div>
+              <div id="addtoshopping" class="clear_fix">
+                <div id="addtoshopping_now" class="clear_fix">
+                  <a
+                    href="javascript:;"
+                    class="btn_add2cart"
+                    id="addtonowcart"
+                    title="下单完成后请务必于6个小时
+                    内付款，否则订单将自动取消(特殊抢购商品除外)"
+                  ></a>
+                  <a
+                    href="javascript:;"
+                    class="btn_add2cart"
+                    id="addtoshoppingcar"
+                    title="下单完成后请务必于6个小时内付款，否则订单将自动取消(特殊抢购商品除外)"
+                    onclick="goodsDetail.addCarts()"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="xiangqingye_info_tuijian">
+            <div><img src="./images/a_you_like.jpg" alt="" /></div>
+            <div>
+              <ul>
+                <li class="clear_fix">
+                  <div>
+                    <a href="javascript:;"
+                      ><img src="./images/thumb_476947.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div><div class="maybePrice_522103">359.00</div></div>
+                </li>
+                <li class="clear_fix">
+                  <div>
+                    <a href="javascript:;"
+                      ><img src="./images/thumb_476947.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div><div class="maybePrice_522103">359.00</div></div>
+                </li>
+                <li class="clear_fix">
+                  <div>
+                    <a href="javascript:;"
+                      ><img src="./images/thumb_476947.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div><div class="maybePrice_522103">359.00</div></div>
+                </li>
+                <li class="clear_fix">
+                  <div>
+                    <a href="javascript:;"
+                      ><img src="./images/thumb_476947.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div><div class="maybePrice_522103">359.00</div></div>
+                </li>
+                <li class="clear_fix">
+                  <div>
+                    <a href="javascript:;"
+                      ><img src="./images/thumb_476947.jpg" alt=""
+                    /></a>
+                  </div>
+                  <div><div class="maybePrice_522103">359.00</div></div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div id="fu_top">
+                <a href="javascript:;"
+                  ><img src="./images/a_left.png" alt=""
+                /></a>
+              </div>
+              <div id="fu_down">
+                <a href="javascript:;"
+                  ><img src="./images/a_right.jpg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;">
+                <div>
+                  <img src="./images/consult.gif" alt="" />
+                  <div>在线咨询</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div></div>
+        <div class="product_details_left_column">
+          <div class="goodsList_nav">
+            <div class="goodsList_nav_topTitle">查看所有分类</div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+            </div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+            </div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+            </div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+            </div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+            </div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+            </div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+            </div>
+            <div class="goodsList_nav_categoryTitle">潮品尖货</div>
+            <div class="goodsList_nav_categoryDetail">
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >中国李宁卫衣</a
+              >
+              <a href="javascript:;" class="goodsList_nav_categoryItem"
+                >时装周走秀款</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product_details_right_column">
+          <div class="PD_tab">
+            <ul>
+              <li class="product_description">
+                <p>商品描述</p>
+                <span class="ico_top"></span>
+              </li>
+              <li class="product_comment">
+                <p>商品评论(3)</p>
+              </li>
+              <li class="product_notice">
+                <p>购物须知</p>
+              </li>
+            </ul>
+          </div>
+          <div class="PD_description">
+            <ul id="PD_description_spec">
+              <li>
+                <span class="t">鞋底:</span>
+                <span class="v">橡胶+EVA</span>
+              </li>
+              <li>
+                <span class="t">鞋底:</span>
+                <span class="v">橡胶+EVA</span>
+              </li>
+              <li>
+                <span class="t">鞋底:</span>
+                <span class="v">橡胶+EVA</span>
+              </li>
+              <li>
+                <span class="t">鞋底:</span>
+                <span class="v">橡胶+EVA</span>
+              </li>
+              <li>
+                <span class="t">鞋底:</span>
+                <span class="v">橡胶+EVA</span>
+              </li>
+              <li>
+                <span class="t">鞋底:</span>
+                <span class="v">橡胶+EVA</span>
+              </li>
+            </ul>
+          </div>
+          <div class="PD_goods_show_desc">
+            <div class="fenxiangguanzhu">
+              <img src="./images/pc_hl.gif" alt="" />
+              <a href="javascript:;" class="fenxiangguanzhu_linqu_btn"></a>
+              <div class="fenxiangguanzhu_code1"></div>
+              <div class="fenxiangguanzhu_code2"></div>
+            </div>
+            <div class="shangpinhulian">
+              <div>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+              </div>
+              <div>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+                <a href="javascript:;">
+                  <img src="./images/display_539289_1.jpg" alt="" />
+                  <div>【华晨宇心选】女子减震跑鞋</div>
+                  <div>7.1折</div>
+                  <div>
+                    <span>￥</span>
+                    <span>239</span>
+                  </div>
+                  <div>立即购买</div>
+                </a>
+              </div>
+            </div>
+            <div class="title_shangpinjieshao">
+              <span>商品介绍</span>
+            </div>
+            <div class="title_shangpinjieshao">
+              <span>尺码对照表</span>
+            </div>
+            <div class="title_shangpinjieshao">
+              <span>产品展示</span>
+            </div>
+            <div class="title_shangpinjieshao">
+              <span>产品展示</span>
+            </div>
+            <div class="zuijinliulan">最近浏览</div>
+            <div class="zuijinliulan_jilu clear_fix">
+              <div class="selItem">
+                <div class="hgoodsPic">
+                  <a href="javascript:;"
+                    ><img src="./images/thumb_476947.jpg" alt=""
+                  /></a>
+                  <div class="hgoodsPic_list">
+                    <div class="hgoodsPic_list_item">
+                      <img src="./images/thumb_476947.jpg" alt="" />
+                    </div>
+                    <div class="hgoodsPic_list_item">
+                      <img src="./images/thumb_479252.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="hgoodsName">
+                  【华晨宇心选】女子减震经典休闲鞋AGCP128-1
+                </div>
+                <div class="hgoodsPrice">￥239.00</div>
+                <div class="hgoodsLine"></div>
+              </div>
+            </div>
+            <div class="title_shangpinjieshao">
+              <span>我们的服务</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- youcebianlan -->
+    <div id="sideBar">
+      <div class="siderBar-wrap">
+        <div class="siderBar_logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <div id="siderBar_show" class="bar">
+          <div>
+            <img src="./images/show_bar_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_lining" class="bar">
+          <div>
+            <img src="./images/my_lining_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_car" class="bar">
+          <div>
+            <img src="./images/cart_icon_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_rmb" class="bar">
+          <div>
+            <img src="./images/account_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_collect" class="bar">
+          <div>
+            <img src="./images/collect_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_view" class="bar">
+          <div>
+            <img src="./images/view_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_service" class="bar">
+          <div>
+            <img src="./images/service_1.png" alt="" />
+          </div>
+        </div>
+        <div class="solid">
+          <img src="./images/solid.png" alt="" />
+        </div>
+        <div id="siderBar_scan" class="bar">
+          <div>
+            <img src="./images/scan_ground_1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 分享 -->
+    <div id="comm_sharing_tips">
+      <img src="./images/share_pc.png" alt="" />
+      <p>分享</p>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div id="footer-top" class="clear_fix">
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <a href="javascript:;" id="footerTopContent_title">获取帮助</a>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">联系我们</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">防伪查询</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">输入查询码</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">售后服务</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">使用说明</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">团购服务</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">VIP客户</a>
+            </div>
+          </div>
+        </div>
+        <div id="footerTop-content">
+          <div id="footerTop_content_img"></div>
+          <div id="footerTop_content_content">
+            <div href="javascript:;" id="footerTopContent_title">校园代理</div>
+            <div id="footerTopContent_detail">
+              <a href="javascript:;">招募中</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 45%; margin: 0 auto 13px;" />
+      <div id="footer-center">
+        <div id="footer-center_content01">
+          <span>
+            温馨提示：近日有不法分子假冒+4006100011冒充李宁官方客服人员进行电话诈骗，请您提高警惕，注意保护个人账户信息，切勿泄漏他人。如遇类似问题，
+            请勿回拨来电号码，直接拨打李宁客服电话400-610-0011询问。
+          </span>
+        </div>
+        <div id="footer-center_content02">
+          <a href="javascript:;"> 沪ICP备14035278号-2</a>
+        </div>
+        <div id="footer-center_content03">
+          上海李宁体育用品电子商务有限公司 ©1990-2020
+        </div>
+        <ul id="footer-center_content04" class="clear_fix">
+          <li><a href="">关于我们</a></li>
+          <li><a href="">法律声明</a></li>
+          <li><a href="">投资者关系 Investor Relations</a></li>
+          <li><a href="">特许经营</a></li>
+          <li><a href="">合作伙伴</a></li>
+          <li><a href="">客服热线</a></li>
+        </ul>
+      </div>
+      <div id="footer-bottom">
+        <a href="javascript:;">
+          <img src="./images/ba.png" alt="" />
+          <div>京公网安备</div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/xiangqingye.js"></script>

@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* 登录 */
+#regLogin {
+  padding: 0px 0px 79px;
+  background-color: rgb(238, 239, 239);
+}
+.regLogin-wrap {
+  margin: 0 auto;
+  width: 990px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding-bottom: 1px;
+}
+.regLogin_title {
+  font-family: "微软雅黑";
+  width: 800px;
+  display: inline-block;
+  height: 78px;
+  line-height: 78px;
+  margin: 0 95px;
+  border-bottom: 1px dashed #e2e2e2;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+.reg_login_inp {
+  margin-top: 22px;
+}
+.inp_item {
+  position: relative;
+  width: 374px;
+  margin: 0 auto 22px;
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.inp_item > input {
+  font-family: "微软雅黑";
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  width: 374px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15px;
+  padding-left: 16px;
+  color: #555;
+}
+.verification_code > img {
+  cursor: pointer;
+  position: absolute;
+  top: 6px;
+  right: 4px;
+  height: 34px;
+}
+.login-href > a {
+  font-family: "微软雅黑";
+  color: #808080;
+  font-size: 15px;
+}
+.login-href > a:nth-of-type(1) {
+  float: left;
+}
+.login-href > a:nth-of-type(2) {
+  float: right;
+}
+.reg_login_btn > input {
+  width: 374px;
+  background: #ee2737;
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  height: 45px;
+  line-height: 45px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "微软雅黑";
+}
+.reg_login > div:nth-of-type(3) {
+  height: 20px;
+  margin: 0px auto 12px;
+  width: 374px;
+}
+.reg_login > div:nth-of-type(3) > span {
+  font-family: "微软雅黑";
+  color: rgb(51, 51, 51);
+}
+.reg_login > div:nth-of-type(3) > a > span {
+  color: rgb(238, 39, 55);
+  font-family: "微软雅黑";
+}
+.reg_login_otherTitle {
+  color: #808080;
+  font-size: 15px;
+}
+.reg_login_otherIcon > a {
+  display: inline-block;
+  height: 49px;
+  width: 50px;
+}
+.reg_login_otherIcon > a:nth-of-type(1) {
+  background: url("./../images/union_login.png") no-repeat 0 0;
+}
+.reg_login_otherIcon > a:nth-of-type(2) {
+  background: url("./../images/union_login.png") no-repeat -107px 0;
+}
+.reg_login_otherIcon > a:nth-of-type(3) {
+  background: url("./../images/union_login.png") no-repeat -213px 0;
+}
+.password_strength {
+  position: absolute;
+  top: 16px;
+  right: 5px;
+}
+.safety-name {
+  margin-right: 4px;
+  font-size: 12px;
+  color: #808080;
+  font-family: "微软雅黑";
+}
+.password_strength > span {
+  vertical-align: middle;
+}
+.password_strength > span:not(:nth-of-type(1)) {
+  display: inline-block;
+  width: 22px;
+  height: 8px;
+  background-color: rgb(162, 162, 162);
+}
